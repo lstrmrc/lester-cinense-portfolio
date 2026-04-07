@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Lester Marc Cinense Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="images/lester_dp.jpg" alt="JPCS Logo" class="logo">
+                    <div>
+                        <div class="site-title">Lester Marc <span>Cinense</span></div>
+                        <small style="color: #bdc3c7;">BS Information Technology</small>
+                    </div>
+                </div>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Me</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="education.html">Education</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="login.html" class="auth-link login-link">Login</a>
+                    <a href="register.html" class="auth-link register-link">Register</a>
+                    <a href="dashboard.html" class="auth-link dashboard-link" style="display:none;">Dashboard</a>
+                    <a href="#" onclick="logout(); return false;" class="auth-link logout-link" style="display:none;">Logout</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                
+                <!-- Filter Buttons -->
+                <div class="filter-container">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="data">Data Analytics</button>
+                    <button class="filter-btn" data-filter="python">Python</button>
+                </div>
+                
+                <div class="project-list">
+                    <div class="project-item story-project web">
+                        <h3>📚 Interactive Kids Storybook</h3>
+                        <p>A complete children's story with 3 chapters, featuring interactive navigation and beautiful illustrations.</p>
+                        <p><strong>Skills:</strong> HTML5, CSS3, JavaScript, Web Design</p>
+                        <p><strong>Status:</strong> Completed 2025</p>
+                        <a href="#" class="project-link">🔗 View Project Details →</a>
+                    </div>
+                    
+                    <div class="project-item data">
+                        <h3>📊 Cisco Data Analytics 1</h3>
+                        <p>Completed Cisco Networking Academy Data Analytics course with hands-on projects in data visualization.</p>
+                        <p><strong>Skills:</strong> Data Analysis, SQL, Excel, Visualization</p>
+                        <p><strong>Status:</strong> Certified 2025</p>
+                        <a href="#" class="project-link">🔗 View Certificate →</a>
+                    </div>
+                    
+                    <div class="project-item python">
+                        <h3>🐍 Cisco Python Essentials</h3>
+                        <p>Completed Python Essentials 1 & 2 certification from Cisco Networking Academy.</p>
+                        <p><strong>Skills:</strong> Python, Programming, OOP, Problem Solving</p>
+                        <p><strong>Status:</strong> Certified 2025</p>
+                        <a href="#" class="project-link">🔗 View Certificate →</a>
+                    </div>
+                    
+                    <div class="project-item web">
+                        <h3>🌐 Portfolio Website</h3>
+                        <p>This responsive portfolio website built with HTML, CSS, JavaScript.</p>
+                        <p><strong>Skills:</strong> HTML5, CSS3, JavaScript, Responsive Design</p>
+                        <p><strong>Status:</strong> Live 2026</p>
+                        <a href="#" class="project-link">🔗 View Source →</a>
+                    </div>
+                    
+                    <div class="project-item data python">
+                        <h3>📈 Data Visualization Dashboard</h3>
+                        <p>Interactive dashboard showing real-time data analytics using Python and JavaScript.</p>
+                        <p><strong>Skills:</strong> Python, JavaScript, Data Visualization</p>
+                        <p><strong>Status:</strong> In Development</p>
+                        <a href="#" class="project-link">🔗 Preview →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Lester Marc A. Cinense - IT Portfolio</p>
+            <p>JPCS OLSHICO Chapter • Sophomore • AY 2025-26</p>
+            <p>&copy; 2026 Lester Marc A. Cinense</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

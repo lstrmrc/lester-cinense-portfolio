@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Lester Marc Cinense Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="images/lester_dp.jpg" alt="JPCS Logo" class="logo">
+                    <div>
+                        <div class="site-title">Lester Marc <span>Cinense</span></div>
+                        <small style="color: #bdc3c7;">BS Information Technology</small>
+                    </div>
+                </div>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Me</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="education.html">Education</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="login.html" class="auth-link login-link">Login</a>
+                    <a href="register.html" class="auth-link register-link">Register</a>
+                    <a href="dashboard.html" class="auth-link dashboard-link" style="display:none;">Dashboard</a>
+                    <a href="#" onclick="logout(); return false;" class="auth-link logout-link" style="display:none;">Logout</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="education">
+            <div class="container">
+                <h2>Education</h2>
+                
+                <div class="education-item">
+                    <h3>🎓 Bachelor of Science in Information Technology</h3>
+                    <p><strong>School:</strong> Our Lady of the Sacred Heart College of Guimba Inc.</p>
+                    <p><strong>Year:</strong> 2025 - Present</p>
+                    <p><strong>Status:</strong> Currently Enrolled</p>
+                    <p><strong>Relevant Courses:</strong> Web Development, Programming, Database Management, Data Analytics</p>
+                    <p><strong>Organization:</strong> Junior Philippine Computer Society (JPCS) - Sophomore Member</p>
+                </div>
+                
+                <div class="education-item">
+                    <h3>📚 Senior High School</h3>
+                    <p><strong>School:</strong> Bartolome Sangalang National High School</p>
+                    <p><strong>Year:</strong> 2022 - 2025</p>
+                    <p><strong>Strand:</strong> Science, Technology, Engineering, and Mathematics (STEM)</p>
+                    <p><strong>Awards:</strong> With Honors</p>
+                </div>
+                
+                <!-- Toggle Section for Certifications -->
+                <div class="toggle-section">
+                    <button class="toggle-btn" data-target="certifications">🔼 Show Certifications</button>
+                    <div id="certifications" class="toggle-content">
+                        <h3>📜 Certifications</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding: 10px; border-bottom: 1px dashed #ccc;">✓ Cisco Data Analytics Essentials (2025)</li>
+                            <li style="padding: 10px; border-bottom: 1px dashed #ccc;">✓ Python Essentials 1 & 2 (2025)</li>
+                            <li style="padding: 10px; border-bottom: 1px dashed #ccc;">✓ Web Development Fundamentals (2025)</li>
+                            <li style="padding: 10px;">✓ JPCS Leadership Seminar (2025)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Lester Marc A. Cinense - IT Portfolio</p>
+            <p>JPCS OLSHICO Chapter • Sophomore • AY 2025-26</p>
+            <p>&copy; 2026 Lester Marc A. Cinense</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

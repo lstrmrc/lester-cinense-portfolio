@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Lester Marc Cinense Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="images/lester_dp.jpg" alt="JPCS Logo" class="logo">
+                    <div>
+                        <div class="site-title">Lester Marc <span>Cinense</span></div>
+                        <small style="color: #bdc3c7;">BS Information Technology</small>
+                    </div>
+                </div>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Me</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="education.html">Education</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="login.html" class="auth-link login-link">Login</a>
+                    <a href="register.html" class="auth-link register-link">Register</a>
+                    <a href="dashboard.html" class="auth-link dashboard-link" style="display:none;">Dashboard</a>
+                    <a href="#" onclick="logout(); return false;" class="auth-link logout-link" style="display:none;">Logout</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2>Welcome to My Portfolio</h2>
+                <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
+                    <span class="jpcs-badge">JPCS SOPHOMORE 2025-26</span>
+                    <span class="jpcs-badge" style="background: #3498db; color: white;">OLSHCO CHAPTER</span>
+                </div>
+                <p>I'm Lester Marc A. Cinense, a BS Information Technology student passionate about programming and web development.</p>
+                <p>This portfolio showcases my academic projects, learning journey, and the skills I've developed throughout my studies.</p>
+                
+                <div class="overview">
+                    <div class="overview-item">
+                        <h3>📁 Academic Projects</h3>
+                        <p>Explore my work including web development projects, data analysis, and programming assignments.</p>
+                    </div>
+                    <div class="overview-item">
+                        <h3>🎓 Education</h3>
+                        <p>View my academic background and current studies in Information Technology.</p>
+                    </div>
+                    <div class="overview-item">
+                        <h3>💡 Skills</h3>
+                        <p>Discover my technical and soft skills developed through coursework and projects.</p>
+                    </div>
+                </div>
+
+                <!-- Toggle Section - Interactive Feature -->
+                <div class="toggle-section">
+                    <button class="toggle-btn" data-target="welcomeMessage">🔼 Show Welcome Message</button>
+                    <div id="welcomeMessage" class="toggle-content">
+                        <h3>🌟 About This Portfolio</h3>
+                        <p>This portfolio website was created as part of my web development journey. It demonstrates my skills in HTML, CSS, JavaScript.</p>
+                        <p>Current date and time: <strong id="currentDateTime"></strong></p>
+                        <p><strong>JPCS Role:</strong> Sophomore Member - Junior Philippine Computer Society OLSHICO Chapter AY 2025-26</p>
+                    </div>
+                </div>
+
+                <div class="cta" style="margin-top: 40px;">
+                    <p>Ready to explore my work?</p>
+                    <div class="cta-buttons" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px; flex-wrap: wrap;">
+                        <a href="projects.html" class="btn" style="width: auto; padding: 12px 30px; background: var(--primary-green);">📂 View My Projects</a>
+                        <a href="about.html" class="btn" style="width: auto; padding: 12px 30px;">👤 Learn About Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Lester Marc A. Cinense - IT Portfolio</p>
+            <p>JPCS OLSHCO Chapter • Sophomore • AY 2025-26</p>
+            <p>&copy; 2026 Lester Marc A. Cinense</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
